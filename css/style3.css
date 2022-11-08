@@ -1,0 +1,253 @@
+:root{
+   --purple:#8e44ad;
+   --red:#c0392b;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --yellow:#F5E216;
+   --border:.1rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+body { 
+  margin: 0;
+  font-family: Cambria;
+}
+
+header {
+  background: -webkit-linear-gradient(right,#FFFF00,#F5E216,#F5E216);
+  padding: 20px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+header a {
+  position: relative;
+  color: dimgray;
+  text-align: center;
+  padding: 12px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 20px;
+}
+
+.header2 {
+  font-family: "Cambria";
+  float: right;
+  margin: 0;
+}
+
+.header2 a {
+  font-family: "Cambria";
+}
+
+header a.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Cambria";
+}
+
+header a:hover {
+  background-color: gray;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.container {
+  background-color: rgb(191, 191, 189, .5);
+}
+
+header a{
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+section{
+   padding:3rem 2rem;
+}
+
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding:1rem 3rem;
+   cursor: pointer;
+   color:var(--white);
+   font-size: 1.8rem;
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
+
+.on {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.containers {
+  background: #52595D;
+}
+
+.box .btn {
+  font-family: "Cambria";
+  font-size: 21px;
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover{
+   background-color: var(--black);
+}
+
+.white-btn,
+.btn{
+   background-color: #7E7C7C;
+}
+
+.white-btn:hover{
+   background-color: var(--white);
+   color:var(--black);
+}
+
+.home{
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/bannerbook.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.home .content{
+   text-align: center;
+   width: 60rem;
+}
+
+.home .content h3{
+   font-size: 5.4rem;
+   color:var(--white);
+   text-transform: uppercase;
+}
+
+.home .content p{
+   font-size:1.6rem;
+   color:var(--light-white);
+   padding:15px 10px;
+   line-height: 1.5;
+}
+
+.home .content a{
+   text-decoration: none;
+   margin-bottom: 20px;
+}
+
+.title{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 4rem;
+   text-transform: uppercase;
+   color:var(--white);
+   font-size: 4rem;
+   background: #FF0000;
+   background-size: cover;
+   width: 50%;
+   margin-left: 360px;
+   border-radius: 10px 10px 5px 5px;
+   padding: 5px 10px;
+}
+
+.products .box-container{
+   max-width: 1500px;
+   margin:0 auto;
+   display: flex;
+   grid-template-columns: repeat(auto-fit, 25rem);
+   align-items: flex-start;
+   gap:2.0rem;
+   justify-content: center;
+}
+
+.products .box-container .box{
+   border-radius: .5rem;
+   background-color: var(--black);
+   box-shadow: var(--box-shadow);
+   padding:2rem;
+   text-align: center;
+   border:var(--border);
+   position: relative;
+}
+
+.products .box-container .box .image{
+   height: 20rem;
+}
+
+.products .box-container .box .name{
+   padding:1rem 0;
+   font-size: 2rem;
+   color:var(--white);
+}
+
+.products .box-container .box .qty{
+   width: 42%;
+   padding:1.0rem 1.0rem;
+   border-radius: .5rem;
+   border:var(--border);
+   margin:1rem 0;
+   font-size: 1rem;
+}
+
+.products .box-container .box .price{
+   position: absolute;
+   top:1rem;
+   border-radius: .5rem;
+   padding: 15px;
+   font-size: 1.5rem;
+   color:var(--white);
+   background-color: #27AE60;
+   right: 1.2rem;
+}
+
+footer {
+  padding: 35px;
+  background: -webkit-linear-gradient(right,#FFFF00,#F5E216,#F5E216);
+}
+
+footer .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+footer .social > a {
+  font-size:24px;
+  padding: 10px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 10px;
+  color:inherit;
+  opacity:0.75;
+}
+
+footer small {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

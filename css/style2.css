@@ -1,0 +1,129 @@
+body { 
+  margin: 0;
+  font-family: "Cambria";
+}
+
+header {
+  background: -webkit-linear-gradient(right,#FFFF00,#F5E216,#F5E216);
+  padding: 20px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+header a {
+  position: relative;
+  color: dimgray;
+  text-align: center;
+  padding: 12px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 20px;
+}
+
+.header2 {
+  float: right;
+  margin: 0;
+}
+
+header a.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Arial";
+}
+
+header a:hover {
+  background-color: gray;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container {
+  background-color: rgb(191, 191, 189, .5);
+}
+
+header a{
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+.banner {
+  height: 75vh;
+  border: 1px solid whitesmoke;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size: 24px;
+  color: gray;
+  z-index: 2;
+  border: 2.5px solid gray;
+  font-family: "Cambria";
+  padding: 10px 5px;
+}
+
+.banner:after {
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgb(229, 229, 229, .5);
+}
+
+.on {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.about-us {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+  margin-left: 30px;
+}
+
+.about-us h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: dimgray;
+}
+
+.about-us p {
+  align-items: center;
+  line-height: 20px;
+  word-spacing: 2.5px;
+  font-family: "Cambria";
+  width: 80%;
+  margin-left: 140px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+footer {
+  padding: 15px;
+  background: -webkit-linear-gradient(right,#FFFF00,#F5E216,#F5E216);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
